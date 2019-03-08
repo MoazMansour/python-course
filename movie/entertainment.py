@@ -9,4 +9,7 @@ braveheart = media.Movie("Brave Heart","Scotland fighting for its freedom","http
 
 movies = [toy_story, avatar, braveheart]
 
-fresh_tomatoes.open_movies_page(movies)
+#fresh_tomatoes.open_movies_page(movies)
+
+print(media.Movie.__module__)
+print(media.Movie.__name__)
